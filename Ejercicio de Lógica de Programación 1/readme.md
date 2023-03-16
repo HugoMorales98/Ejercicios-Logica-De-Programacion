@@ -4,7 +4,7 @@
 
 - Si los tres números son iguales, el programa también muestra un mensaje en consola para informar al usuario.
 
-##Consideraciones
+## Consideraciones
 - Para ejecutar el código es necesario contar con un entorno de desarrollo que permita la ejecución de JavaScript, como un navegador web o un programa especializado.
 
 - Al solicitar los números al usuario, se convierten a tipo float mediante la función parseFloat() para poder realizar comparaciones numéricas más adelante.
