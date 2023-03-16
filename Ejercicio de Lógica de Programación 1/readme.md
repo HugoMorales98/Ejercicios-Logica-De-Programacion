@@ -1,5 +1,5 @@
-#Descripción del Código
-##Instrucciones
+# Descripción del Código
+## Instrucciones
 - El siguiente programa en JavaScript solicita al usuario que ingrese tres números y los almacena en tres variables distintas. A continuación, los ordena de mayor a menor y de menor a mayor, y los muestra en consola.
 
 - Si los tres números son iguales, el programa también muestra un mensaje en consola para informar al usuario.
