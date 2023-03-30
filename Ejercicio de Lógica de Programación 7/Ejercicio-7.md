@@ -22,7 +22,7 @@ lunes
 
 Output:
 ```Java
-"Faltan 5730 minutos para el fin de semana"
+"Faltan 4410 minutos para el fin de semana"
 ```
 
 ## Observaciones adicionales:

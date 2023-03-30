@@ -15,3 +15,12 @@ let kelvin = celsius + 273.15;
 // Mostramos por consola la temperatura convertida en grados Fahrenheit y en grados Kelvin
 console.log("Grados Fahrenheit: " + fahrenheit);
 console.log("Grados Kelvin: " + kelvin);
+
+// Mostramos los resultados en el DOM
+let resultadoFahrenheit = document.createElement("p");
+resultadoFahrenheit.textContent = "Grados Fahrenheit: " + fahrenheit;
+document.body.appendChild(resultadoFahrenheit);
+
+let resultadoKelvin = document.createElement("p");
+resultadoKelvin.textContent = "Grados Kelvin: " + kelvin;
+document.body.appendChild(resultadoKelvin);

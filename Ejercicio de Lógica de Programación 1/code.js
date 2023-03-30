@@ -24,13 +24,10 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
     numMenor = Math.min(num1, num2);
   }
 
-  console.log("Números ordenados de mayor a menor: " + numMayor + ", " + numCentro + ", " + numMenor);
+  document.getElementById("mensaje").innerHTML = "Números ordenados de mayor a menor: " + numMayor + ", " + numCentro + ", " + numMenor + "<br>";
+  document.getElementById("mensaje").innerHTML += "Números ordenados de menor a mayor: " + numMenor + ", " + numCentro + ", " + numMayor;
 
-  // Ordenar los números de menor a mayor y mostrarlos por consola
-  console.log("Números ordenados de menor a mayor: " + numMenor + ", " + numCentro + ", " + numMayor);
-
-  // Mostrar un mensaje si los números son iguales
   if (num1 === num2 && num2 === num3) {
-    console.log("Los tres números son iguales");
+    document.getElementById("mensaje").innerHTML += "<br>Los tres números son iguales";
   }
 }
